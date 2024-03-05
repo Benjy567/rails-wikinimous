@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+h5 {
+  color: grey ;
+  font-weight: normal;
+  padding-left: 10px;
+}
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+a:active {
+  color: grey;
+  text-decoration: none;
+}
+.col-auto{
+  display: inline-flex;
+}
+
+div {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+div > h2 {
+  text-decoration: none;
+}
